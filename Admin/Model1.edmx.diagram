@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="70d67932c68b469a8c9658993a91b8a7" Name="Diagram1">
+        <EntityTypeShape EntityType="user_05Model.Client" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Dish" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.DishCompound" Width="1.5" PointX="12.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.DishStatus" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Employee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Image" Width="1.5" PointX="7.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Ingredient" Width="1.5" PointX="10" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Order" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.OrderCompound" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.OrderStatus" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Position" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Status_Employee" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user_05Model.Unit" Width="1.5" PointX="7.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="user_05Model.FK__Order__Client__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__DishCompou__Dish__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__OrderCompo__Dish__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__DishCompo__Ingre__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__OrderComp__Statu__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__Employee__Positi__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__Order__Employee__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK_Employee_Status_Employee1" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__Ingredient__Unit__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__Order__Status__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.FK__OrderComp__Order__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="user_05Model.DishImage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
